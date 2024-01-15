@@ -1,5 +1,6 @@
 lockfileVersion: "6.0"
 
+#NOTE:This setting causes issues in github actions
 # settings:
 #   autoInstallPeers: true
 #   excludeLinksFromLockfile: false
