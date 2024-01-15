@@ -1,3 +1,3 @@
-declare const delay: () => void;
+declare const delay: (ms: number) => Promise<unknown>;
 
 export { delay };

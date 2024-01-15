@@ -23,7 +23,10 @@ __export(src_exports, {
   delay: () => delay
 });
 module.exports = __toCommonJS(src_exports);
-var delay = () => {
+var delay = (ms) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
